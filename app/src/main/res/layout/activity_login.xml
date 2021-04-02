@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="241dp"
+        android:layout_height="248dp"
+        android:layout_gravity="center"
+        android:background="@drawable/milshake">
+
+    </ImageView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Your Email "
+        android:id="@+id/log_email"
+        android:layout_marginTop="30dp"
+
+        android:textStyle="bold"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Your Pasword"
+        android:id="@+id/log_pass"
+        android:textStyle="bold"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <Button
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#fff"
+        android:text="Login"
+        android:id="@+id/log_btn"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:textSize="15dp"
+        android:id="@+id/rg"
+        android:textStyle="bold"
+        android:textColor="#050505"
+        android:text="Don't have account?"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</LinearLayout>
